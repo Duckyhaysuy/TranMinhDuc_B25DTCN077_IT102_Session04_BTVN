@@ -2,13 +2,9 @@
 
 int main() {
     int day, month, year;
-    printf("Nhap ngay: ");
-    scanf("%d", &day);
-    printf("Nhap thang: ");
-    scanf("%d", &month);
-    printf("Nhap nam: ");
-    scanf("%d", &year);
-
+    printf("Nhap ngay thang nam: ");
+    scanf("%d/%d/%d", &day,&month,&year);
+  
     int maxDay;
 
     if (month > 1 && month < 12) {
@@ -35,4 +31,3 @@ int main() {
 
     return 0;
 }
-
